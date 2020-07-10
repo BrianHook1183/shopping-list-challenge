@@ -28,7 +28,16 @@ function strikethrough() {
 };
 
 
+// Delete a n Item
+function deleteItem() {
+    $('.shopping-list').on('click','.button-label:contains("delete")', function(event) {
+        $(this).closest('li').toggle();
+    });
+};
+
+
 
 
 $(addItem);
 $(strikethrough);
+$(deleteItem);
