@@ -4,9 +4,6 @@
 //  3) button/"delete" needs to .toggle() that li since no display:none css exists right now.
 //  4) hint says i will also need closest() which selects the closest parent to the element sleceted. so if li is in selector then the ul will be grabbed, could be good for strike through?
 
-//  5)OPTIONAL use event.which and mousedown and keydown to add next to item name if it was entered with submnit buton or ener on keyvboard to show functionality for fun
-
-// 6) Bug to fix: check and delete buttons have no gap between them on generated list item
 
 
 // Add Item
