@@ -22,8 +22,8 @@ function addItem() {
 
 // Strikethrough
 function strikethrough() {
-    $('.shopping-list').on('click', function(event) {
-        $('.shopping-item').toggleClass('shopping-item__checked');
+    $('.shopping-list').on('click','.button-label:contains("check")', function(event) {
+        $(this).closest('li').find('.shopping-item').toggleClass('shopping-item__checked');
     });
 };
 
